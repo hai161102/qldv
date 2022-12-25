@@ -104,6 +104,7 @@ namespace QuanLiDoanVienTruongDHDN
                 index = e.RowIndex;
                 currentDVClicked = doanvienList[index];
                 setDataClick(currentDVClicked);
+                dgDoanvien.Rows[index].Selected = true;
             }
             catch (Exception ex)
             {
@@ -143,7 +144,6 @@ namespace QuanLiDoanVienTruongDHDN
                 if (doanvien.MaKH1 == item.MaKH1)
                 {
                     cbKH.SelectedIndex = thongtinkhoahocs.IndexOf(item);
-
                     break;
 
                 }
@@ -241,9 +241,10 @@ namespace QuanLiDoanVienTruongDHDN
                 {
                     doanvienDAO.delete(currentDVClicked.MaDV1, "THONGTINDOANVIEN");
                     updateViewTable();
-                    //setDataClick(null);
                 }
             }
+            setDataClick(null);
+
         }
     }
 }

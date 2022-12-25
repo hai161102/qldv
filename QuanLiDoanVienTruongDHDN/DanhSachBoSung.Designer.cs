@@ -72,103 +72,87 @@ namespace QuanLiDoanVienTruongDHDN
             // 
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.UseWaitCursor = true;
             // 
             // label2
             // 
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.UseWaitCursor = true;
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
             resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.UseWaitCursor = true;
             // 
             // label4
             // 
             resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
-            this.label4.UseWaitCursor = true;
             // 
             // label5
             // 
             resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
-            this.label5.UseWaitCursor = true;
             // 
             // label6
             // 
             resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
-            this.label6.UseWaitCursor = true;
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label7
             // 
             resources.ApplyResources(this.label7, "label7");
             this.label7.Name = "label7";
-            this.label7.UseWaitCursor = true;
             // 
             // label8
             // 
             resources.ApplyResources(this.label8, "label8");
             this.label8.Name = "label8";
-            this.label8.UseWaitCursor = true;
             // 
             // label9
             // 
             resources.ApplyResources(this.label9, "label9");
             this.label9.Name = "label9";
-            this.label9.UseWaitCursor = true;
             this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // maDv
             // 
             resources.ApplyResources(this.maDv, "maDv");
             this.maDv.Name = "maDv";
-            this.maDv.UseWaitCursor = true;
             // 
             // hoTen
             // 
             resources.ApplyResources(this.hoTen, "hoTen");
             this.hoTen.Name = "hoTen";
-            this.hoTen.UseWaitCursor = true;
             // 
             // gioiTinh
             // 
             resources.ApplyResources(this.gioiTinh, "gioiTinh");
             this.gioiTinh.Name = "gioiTinh";
-            this.gioiTinh.UseWaitCursor = true;
             this.gioiTinh.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // diaChi
             // 
             resources.ApplyResources(this.diaChi, "diaChi");
             this.diaChi.Name = "diaChi";
-            this.diaChi.UseWaitCursor = true;
             this.diaChi.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // soDienThoai
             // 
             resources.ApplyResources(this.soDienThoai, "soDienThoai");
             this.soDienThoai.Name = "soDienThoai";
-            this.soDienThoai.UseWaitCursor = true;
             this.soDienThoai.TextChanged += new System.EventHandler(this.soDienThoai_TextChanged);
             // 
             // danToc
             // 
             resources.ApplyResources(this.danToc, "danToc");
             this.danToc.Name = "danToc";
-            this.danToc.UseWaitCursor = true;
             // 
             // chiDoan
             // 
             resources.ApplyResources(this.chiDoan, "chiDoan");
             this.chiDoan.Name = "chiDoan";
-            this.chiDoan.UseWaitCursor = true;
             // 
             // contextMenuStrip1
             // 
@@ -179,14 +163,12 @@ namespace QuanLiDoanVienTruongDHDN
             // 
             resources.ApplyResources(this.label12, "label12");
             this.label12.Name = "label12";
-            this.label12.UseWaitCursor = true;
             this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // textBox12
             // 
             resources.ApplyResources(this.textBox12, "textBox12");
             this.textBox12.Name = "textBox12";
-            this.textBox12.UseWaitCursor = true;
             // 
             // contextMenuStrip2
             // 
@@ -201,7 +183,7 @@ namespace QuanLiDoanVienTruongDHDN
             resources.ApplyResources(this.dgDoanvien, "dgDoanvien");
             this.dgDoanvien.Name = "dgDoanvien";
             this.dgDoanvien.ReadOnly = true;
-            this.dgDoanvien.UseWaitCursor = true;
+            this.dgDoanvien.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView3_CellContentClick);
             this.dgDoanvien.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView3_CellContentClick);
             // 
             // addButton
@@ -209,7 +191,6 @@ namespace QuanLiDoanVienTruongDHDN
             resources.ApplyResources(this.addButton, "addButton");
             this.addButton.Name = "addButton";
             this.addButton.UseVisualStyleBackColor = true;
-            this.addButton.UseWaitCursor = true;
             this.addButton.Click += new System.EventHandler(this.button2_Click);
             // 
             // updateButton
@@ -217,7 +198,6 @@ namespace QuanLiDoanVienTruongDHDN
             resources.ApplyResources(this.updateButton, "updateButton");
             this.updateButton.Name = "updateButton";
             this.updateButton.UseVisualStyleBackColor = true;
-            this.updateButton.UseWaitCursor = true;
             this.updateButton.Click += new System.EventHandler(this.button3_Click);
             // 
             // deleteButton
@@ -225,7 +205,6 @@ namespace QuanLiDoanVienTruongDHDN
             resources.ApplyResources(this.deleteButton, "deleteButton");
             this.deleteButton.Name = "deleteButton";
             this.deleteButton.UseVisualStyleBackColor = true;
-            this.deleteButton.UseWaitCursor = true;
             this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
             // 
             // label13
@@ -233,7 +212,6 @@ namespace QuanLiDoanVienTruongDHDN
             resources.ApplyResources(this.label13, "label13");
             this.label13.ForeColor = System.Drawing.Color.Blue;
             this.label13.Name = "label13";
-            this.label13.UseWaitCursor = true;
             // 
             // ngaySinh
             // 
@@ -307,7 +285,7 @@ namespace QuanLiDoanVienTruongDHDN
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.Cursor = System.Windows.Forms.Cursors.Default;
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.HelpButton = true;
@@ -315,7 +293,6 @@ namespace QuanLiDoanVienTruongDHDN
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "DanhSachBoSung";
-            this.UseWaitCursor = true;
             this.Load += new System.EventHandler(this.DanhSachBoSung_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgDoanvien)).EndInit();
             this.panel1.ResumeLayout(false);
